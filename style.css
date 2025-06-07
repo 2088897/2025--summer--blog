@@ -33,3 +33,57 @@ p {
     flex-direction: column;
     padding-bottom: 5%;
 }
+
+.navbar {
+    background-color:rgb(126, 42, 83);
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 5em;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    padding: 0.5em 1.0em;
+    border-radius: 0.5em;
+    transition: 1s;
+
+}
+
+.nav-links li a:hover{
+    background-color:rgb(236, 208, 236)
+}
+
+.title {
+    text-align: center;
+    padding: 1em;
+
+}
+
+.current {
+    text-decoration: underline dotted rgb(236, 208, 236)
+}
+
+.accordion-header {
+    width: 100%;
+    background-color:rgb(126, 42, 83);
+    border: none;
+    padding: 1em 1em 1em 3em;
+    text-align: left;
+    font-size: 1.1rem;
+    color:rgb(236, 208, 236);
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.accordion-header:hover {
+    background-color: rgb(186, 113, 163);
+}
+
+.accordion-content {
+    display:none;
+}
