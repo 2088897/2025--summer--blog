@@ -88,9 +88,7 @@ p {
     display:none;
 }
 
-.hidden{
-    display: none !important;
-}
+
 
 .blog-entry {
     display: flex;
@@ -98,6 +96,10 @@ p {
     gap: 2em;
     padding-right:2%;
     margin-bottom : 2em;
+}
+
+.hidden{
+    display: none;
 }
 
 .log-entries img {
